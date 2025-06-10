@@ -1,0 +1,593 @@
+[
+  {
+    "pregunta": "¿Cuál de las siguientes propiedades está relacionada con la capacidad de un modelo de transmitir información de forma clara y simple?",
+    "opciones": [
+      "Interactividad",
+      "Transferibilidad",
+      "Imparcialidad",
+      "Informatividad"
+    ],
+    "respuesta": "Informatividad"
+  },
+  {
+    "pregunta": "¿Qué significa XAI?",
+    "opciones": [
+      "Inteligencia Artificial Extensible",
+      "Inteligencia Artificial Educativa",
+      "Inteligencia Artificial Eficiente",
+      "Inteligencia Artificial Explicable"
+    ],
+    "respuesta": "Inteligencia Artificial Explicable"
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes herramientas NO pertenece a los métodos de explicabilidad Post-Hoc?",
+    "opciones": [
+      "SGD",
+      "LIME",
+      "ICE",
+      "SHAP"
+    ],
+    "respuesta": "SGD"
+  },
+  {
+    "pregunta": "¿Desde cuándo se menciona formalmente el término XAI en artículos científicos?",
+    "opciones": [
+      "Desde 2000",
+      "Desde 1995",
+      "Desde 2004, con su definición formal en 2020",
+      "Desde 2015"
+    ],
+    "respuesta": "Desde 2004, con su definición formal en 2020"
+  },
+  {
+    "pregunta": "¿Cuál es el propósito del método SHAP en XAI?",
+    "opciones": [
+      "Explicar el impacto de cada característica en una predicción específica",
+      "Optimizar el rendimiento predictivo de un modelo",
+      "Medir el sesgo en los datos de entrenamiento",
+      "Visualizar las interacciones entre características de forma directa"
+    ],
+    "respuesta": "Explicar el impacto de cada característica en una predicción específica"
+  },
+  {
+    "pregunta": "En el caso práctico presentado, ¿cuál fue la característica más importante según el Summary Plot?",
+    "opciones": [
+      "Índice de masa corporal (BMI)",
+      "Edad",
+      "Nivel de azúcar en sangre",
+      "Presión arterial"
+    ],
+    "respuesta": "Índice de masa corporal (BMI)"
+  },
+  {
+    "pregunta": "¿Qué significa la explicabilidad Post-Hoc en un modelo XAI?",
+    "opciones": [
+      "Reducir el sesgo en los datos de entrada",
+      "Crear modelos completamente interpretables antes del entrenamiento",
+      "Explicar la salida de un modelo después de su entrenamiento, sin comprometer su rendimiento predictivo",
+      "Ajustar los hiperparámetros del modelo para maximizar la precisión"
+    ],
+    "respuesta": "Explicar la salida de un modelo después de su entrenamiento, sin comprometer su rendimiento predictivo"
+  },
+  {
+    "pregunta": "¿Qué propiedad asegura que un modelo XAI no exponga datos sensibles en su proceso de explicabilidad?",
+    "opciones": [
+      "Transferibilidad",
+      "Fiabilidad",
+      "Interactividad",
+      "Privacidad"
+    ],
+    "respuesta": "Privacidad"
+  },
+  {
+    "pregunta": "¿Qué gráfica en SHAP muestra el impacto global de las características en el modelo?",
+    "opciones": [
+      "Dependence Plot",
+      "Calibration Plot",
+      "Force Plot",
+      "Summary Plot"
+    ],
+    "respuesta": "Summary Plot"
+  },
+  {
+    "pregunta": "¿Qué es un modelo XAI?",
+    "opciones": [
+      "Un modelo que puede proporcionar razones y explicaciones comprensibles para sus decisiones",
+      "Un modelo que minimiza los costos computacionales",
+      "Un modelo que optimiza la velocidad de entrenamiento",
+      "Un modelo que maximiza la precisión de predicciones"
+    ],
+    "respuesta": "Un modelo que puede proporcionar razones y explicaciones comprensibles para sus decisiones"
+  },
+  {
+    "pregunta": "KFold crea pliegues",
+    "opciones": [
+      "de tamaño aleatorio",
+      "del mismo tamaño si puede ser"
+    ],
+    "respuesta": "del mismo tamaño si puede ser"
+  },
+  {
+    "pregunta": "¿Qué es una muestra independiente e idénticamente distribuidos?",
+    "opciones": [
+      "datos generados aleatoriamente",
+      "datos que tiene una distribución normal",
+      "datos distribuidos homogéneamente",
+      "datos que son normalizados"
+    ],
+    "respuesta": "datos distribuidos homogéneamente"
+  },
+  {
+    "pregunta": "En entornos de series temporales",
+    "opciones": [
+      "no se puede hacer validación cruzada",
+      "sí",
+      "se puede realizar KFold"
+    ],
+    "respuesta": "no se puede hacer validación cruzada"
+  },
+  {
+    "pregunta": "Leave One Out",
+    "opciones": [
+      "cada dataset de entrenamiento tiene todos los datos menos uno",
+      "se crean grupos de tamaño aleatorio"
+    ],
+    "respuesta": "cada dataset de entrenamiento tiene todos los datos menos uno"
+  },
+  {
+    "pregunta": "Si la distribución de los datos están distribuidos de forma diferente por cada clase, se debería usar",
+    "opciones": [
+      "KFold",
+      "StratifiedKFold",
+      "Leave One Out",
+      "Leave P Out"
+    ],
+    "respuesta": "StratifiedKFold"
+  },
+  {
+    "pregunta": "En el caso de Leave One Out el número de pliegues es",
+    "opciones": [
+      "el mismo que muestras tiene el dataset",
+      "mayor que el número de muestras",
+      "menor que el número de muestras",
+      "5"
+    ],
+    "respuesta": "el mismo que muestras tiene el dataset"
+  },
+  {
+    "pregunta": "Entre el Leave P Out y el Leave One Out",
+    "opciones": [
+      "son lo mismo cuando P es 5",
+      "no hay diferencia si P es una a uno"
+    ],
+    "respuesta": "no hay diferencia si P es una a uno"
+  },
+  {
+    "pregunta": "Kfold es la forma de estabilidad",
+    "opciones": [
+      "se generan 5 datasets de entrenamiento",
+      "donde se crean k dataset de entrenamiento",
+      "donde se cogen datos al azar",
+      "se crean datasets de entrenamiento de valores aleatoriamente"
+    ],
+    "respuesta": "donde se crean k dataset de entrenamiento"
+  },
+  {
+    "pregunta": "¿Qué es la estabilidad de un modelo?",
+    "opciones": [
+      "que siempre tarde lo mismo al entrenar",
+      "que sea consistente y no cambie en función de pequeñas modificaciones de los datos de entrada",
+      "que para una entrada siempre dé el mismo resultado",
+      "que tarde lo mismo en cualquier predicción"
+    ],
+    "respuesta": "que sea consistente y no cambie en función de pequeñas modificaciones de los datos de entrada"
+  },
+  {
+    "pregunta": "¿StratifiedKFold es lo mismo que el KFold?",
+    "opciones": [
+      "Sí",
+      "No"
+    ],
+    "respuesta": "No"
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula correcta para el error total en un modelo de machine learning?",
+    "opciones": [
+      "Error Total = (Sesgo)^2 + Varianza + Error Irreducible",
+      "Error Total = (Sesgo)^2 + (Varianza)^2 + Error Irreducible",
+      "Error Total = (Sesgo + Varianza)^2 + Error Irreducible",
+      "Error Total = Sesgo + Varianza + Error Irreducible"
+    ],
+    "respuesta": "Error Total = (Sesgo)^2 + Varianza + Error Irreducible"
+  },
+  {
+    "pregunta": "En el contexto del aprendizaje supervisado, ¿qué es 'clasificación'?",
+    "opciones": [
+      "Dividir los datos en varios grupos basados en similitudes",
+      "Asignar valores continuos a los ejemplos",
+      "Asignar etiquetas categóricas a los ejemplos",
+      "Predecir valores futuros basados en datos históricos"
+    ],
+    "respuesta": "Asignar etiquetas categóricas a los ejemplos"
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes es un ejemplo de aprendizaje supervisado?",
+    "opciones": [
+      "K-means clustering",
+      "Mapas autoorganizativos",
+      "Asociación de reglas",
+      "Random Forest"
+    ],
+    "respuesta": "Random Forest"
+  },
+  {
+    "pregunta": "¿Qué término describe un modelo que aprende demasiado bien el ruido en el conjunto de entrenamiento, perjudicando su rendimiento en datos nuevos?",
+    "opciones": [
+      "Underfitting (Subajuste)",
+      "Low Variance",
+      "Overfitting (Sobreajuste)",
+      "High Bias"
+    ],
+    "respuesta": "Overfitting (Sobreajuste)"
+  },
+  {
+    "pregunta": "¿Qué es el \"Sweet Spot\" en el contexto del compromiso entre sesgo y varianza?",
+    "opciones": [
+      "El punto de equilibrio donde un modelo tiene suficiente complejidad para aprender de los datos pero no tanta como para sobreajustarse",
+      "El momento durante el entrenamiento cuando el modelo alcanza la precisión perfecta en los datos de entrenamiento",
+      "El punto donde el modelo tiene la mayor varianza posible para maximizar la adaptabilidad",
+      "El nivel de sesgo necesario para que un modelo sea completamente insensible al ruido en los datos"
+    ],
+    "respuesta": "El punto de equilibrio donde un modelo tiene suficiente complejidad para aprender de los datos pero no tanta como para sobreajustarse"
+  },
+  {
+    "pregunta": "¿Qué afirmación describe mejor el compromiso entre sesgo y varianza en machine learning?",
+    "opciones": [
+      "La varianza mide la precisión de las predicciones del modelo en datos de entrenamiento",
+      "Un modelo con bajo sesgo y alta varianza tiende a sobreajustarse a los datos de entrenamiento",
+      "Un modelo con alta varianza y bajo sesgo es ideal para todos los problemas de predicción",
+      "Un modelo con alto sesgo probablemente tiene también alta varianza"
+    ],
+    "respuesta": "Un modelo con bajo sesgo y alta varianza tiende a sobreajustarse a los datos de entrenamiento"
+  },
+  {
+    "pregunta": "En el contexto de datos desbalanceados, ¿qué técnica se puede utilizar para crear ejemplos sintéticos de la clase minoritaria?",
+    "opciones": [
+      "Reducción de dimensionalidad",
+      "Regularización L1",
+      "SMOTE (Synthetic Minority Over-sampling Technique)",
+      "Ajuste de hiperparámetros"
+    ],
+    "respuesta": "SMOTE (Synthetic Minority Over-sampling Technique)"
+  },
+  {
+    "pregunta": "¿Qué tipo de algoritmo de machine learning se utilizaría para predecir el precio de una casa?",
+    "opciones": [
+      "Clasificación de texto",
+      "Regresión",
+      "Detección de anomalías",
+      "Clasificación"
+    ],
+    "respuesta": "Regresión"
+  },
+  {
+    "pregunta": "¿Qué describe mejor la validación cruzada en machine learning?",
+    "opciones": [
+      "Un método para dividir el conjunto de datos en solo dos partes: una para entrenamiento y otra para pruebas",
+      "Una técnica que implica entrenar un modelo hasta que alcanza un error mínimo en el conjunto de datos de entrenamiento",
+      "Una estrategia de ensamblado donde diferentes modelos son entrenados en el mismo conjunto de datos y luego combinados",
+      "Una técnica para evaluar la capacidad de generalización de un modelo dividiendo el conjunto de datos en varios subconjuntos y entrenando y probando el modelo en estos subconjuntos"
+    ],
+    "respuesta": "Una técnica para evaluar la capacidad de generalización de un modelo dividiendo el conjunto de datos en varios subconjuntos y entrenando y probando el modelo en estos subconjuntos"
+  },
+  {
+    "pregunta": "¿Qué caracteriza específicamente a la validación cruzada k-fold?",
+    "opciones": [
+      "Entrena el modelo 'k' veces en el mismo conjunto de datos y promedia los resultados para obtener el rendimiento final",
+      "Realiza 'k' iteraciones de entrenamiento y prueba, pero en cada iteración selecciona aleatoriamente subconjuntos diferentes para entrenamiento y prueba sin división fija",
+      "Divide el conjunto de datos en 'k' subconjuntos iguales y entrena el modelo en un subconjunto mientras se prueban los 'k-1' restantes",
+      "Divide el conjunto de datos en 'k' subconjuntos y utiliza cada subconjunto una vez como conjunto de prueba, mientras que el resto se utiliza para el entrenamiento"
+    ],
+    "respuesta": "Divide el conjunto de datos en 'k' subconjuntos y utiliza cada subconjunto una vez como conjunto de prueba, mientras que el resto se utiliza para el entrenamiento"
+  },
+  {
+    "pregunta": "El Coeficiente de Determinación (R2) mide:",
+    "opciones": [
+      "La proporción de la varianza de la variable dependiente explicada por el modelo",
+      "La precisión de un modelo de clasificación",
+      "La media de los errores en un modelo de regresión",
+      "La cantidad de datos en el conjunto de entrenamiento"
+    ],
+    "respuesta": "La proporción de la varianza de la variable dependiente explicada por el modelo"
+  },
+  {
+    "pregunta": "¿Cuál es el propósito principal del Coeficiente de Determinación Ajustado (R-ajustado2) en la evaluación de modelos de regresión?",
+    "opciones": [
+      "Evaluar la capacidad del modelo para predecir valores futuros",
+      "Comparar el modelo con otros algoritmos de regresión",
+      "Penalizar la inclusión de variable irrelevantes en modelos",
+      "Medir el error absoluto promedio del modelo"
+    ],
+    "respuesta": "Penalizar la inclusión de variable irrelevantes en modelos"
+  },
+  {
+    "pregunta": "¿Qué métrica de regresión se utiliza para medir el error porcentual absoluto medio?",
+    "opciones": [
+      "RMSLE",
+      "MSE",
+      "MAPE",
+      "RAE"
+    ],
+    "respuesta": "MAPE"
+  },
+  {
+    "pregunta": "¿Cuál es la principal consideración al seleccionar una métrica de regresión?",
+    "opciones": [
+      "Debe alinearse con el objetivo del problema y la interpretación de resultados",
+      "Debe ser la métrica más utilizada en la industria",
+      "Debe ser la que dé el valor más alto",
+      "Debe ser fácil de calcular"
+    ],
+    "respuesta": "Debe alinearse con el objetivo del problema y la interpretación de resultados"
+  },
+  {
+    "pregunta": "¿Cuál es una limitación importante del NRMSE como métrica de regresión?",
+    "opciones": [
+      "No tiene limitaciones significativas",
+      "Es difícil de calcular",
+      "No es adecuado para comparar modelos",
+      "Es sensible a la escala de los datos"
+    ],
+    "respuesta": "Es sensible a la escala de los datos"
+  },
+  {
+    "pregunta": "¿Qué métrica de regresión es especialmente útil cuando se trabaja en un escenario donde los errores costosos son desproporcionadamente altos?",
+    "opciones": [
+      "Coeficiente de Determinación (R2)",
+      "MSE",
+      "MAE",
+      "RMSLE"
+    ],
+    "respuesta": "MSE"
+  },
+  {
+    "pregunta": "¿Cuál es uno de los frameworks más utilizados para modelos de Machine Learning en Python?",
+    "opciones": [
+      "Scikit-Learn",
+      "Tensor",
+      "Pytch",
+      "Koras"
+    ],
+    "respuesta": "Scikit-Learn"
+  },
+  {
+    "pregunta": "¿Cuál es una limitación importante de MSE como métrica de regresión?",
+    "opciones": [
+      "No tiene limitaciones, es la métrica ideal",
+      "Es sensible a los valores atípicos (outliers)",
+      "Es difícil de interpretar",
+      "Solo puede usarse con algoritmos de regresión lineal"
+    ],
+    "respuesta": "Es sensible a los valores atípicos (outliers)"
+  },
+  {
+    "pregunta": "¿Por qué es importante considerar la comunicación a nivel de negocio al trabajar con métricas de regresión?",
+    "opciones": [
+      "Para hacer que los modelos sean más difíciles de entender",
+      "Para aumentar la complejidad del problema",
+      "No es importante, ya que las métricas son solo para científicos de datos",
+      "Porque las métricas pueden ayudar a tomar decisiones de negocio"
+    ],
+    "respuesta": "Porque las métricas pueden ayudar a tomar decisiones de negocio"
+  },
+  {
+    "pregunta": "En un modelo de regresión, si el MAPE (Error Porcentual Absoluto Medio) es del 10%, ¿qué significa esto en términos de predicciones?",
+    "opciones": [
+      "El modelo tiene un 10% de precisión",
+      "El modelo tiene un 90% de precisión",
+      "El modelo indica que en promedio el pronóstico fue un 10% superior a las ventas reales",
+      "El modelo sobreestima las predicciones en promedio en un 10%"
+    ],
+    "respuesta": "El modelo indica que en promedio el pronóstico fue un 10% superior a las ventas reales"
+  },
+  {
+    "pregunta": "¿Qué representa la curva ROC?",
+    "opciones": [
+      "La relación entre la tasa de verdaderos negativos y la tasa de verdaderos negativos",
+      "La relación entre la tasa de falsos negativos y la tasa de falsos positivos",
+      "La relación entre la tasa de verdaderos positivos y la tasa de falsos positivos",
+      "El número de predicciones sobre el total de predicciones"
+    ],
+    "respuesta": "La relación entre la tasa de verdaderos positivos y la tasa de falsos positivos"
+  },
+  {
+    "pregunta": "¿Cómo se calcula la precisión en un modelo de clasificación?",
+    "opciones": [
+      "(TP + TN) / (TP + TN + FP + FN)",
+      "TP / (TP + FN)",
+      "TP / (TP + FP)",
+      "2 × (Precisión × Recall) / (Precisión + Recall)"
+    ],
+    "respuesta": "TP / (TP + FP)"
+  },
+  {
+    "pregunta": "En la clasificación multiclase, ¿qué método de cálculo de métricas trata todas las clases por igual?",
+    "opciones": [
+      "AUC-ROC",
+      "Promedio Ponderado",
+      "Promedio Micro",
+      "Promedio Macro"
+    ],
+    "respuesta": "Promedio Macro"
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula para calcular el F1-score?",
+    "opciones": [
+      "TP / (TP - FP)",
+      "2 × (Precisión × Recall) / (Precisión + Recall)",
+      "TP / (TP + FN)",
+      "(TP + TN) / (TP + TN + FP + FN)"
+    ],
+    "respuesta": "2 × (Precisión × Recall) / (Precisión + Recall)"
+  },
+  {
+    "pregunta": "¿Qué métrica es especialmente importante cuando los costos de los falsos negativos son altos?",
+    "opciones": [
+      "AUC-ROC",
+      "Precisión",
+      "Recall",
+      "Especificidad"
+    ],
+    "respuesta": "Recall"
+  },
+  {
+    "pregunta": "¿Cuál es el propósito principal de la Curva de Ganancia en el análisis de modelos de clasificación?",
+    "opciones": [
+      "Medir la capacidad del modelo para distinguir entre clases",
+      "Calcular el equilibrio entre la tasa de verdaderos positivos y la tasa de falsos positivos",
+      "Mostrar el porcentaje acumulado de casos positivos identificados en función de diferentes fracciones de la población probada",
+      "Representar la relación entre el recall y la precisión a diferentes umbrales de decisión"
+    ],
+    "respuesta": "Mostrar el porcentaje acumulado de casos positivos identificados en función de diferentes fracciones de la población probada"
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes métricas combina precisión y recall?",
+    "opciones": [
+      "AUC-ROC",
+      "Especificidad",
+      "F1-score",
+      "Accuracy"
+    ],
+    "respuesta": "F1-score"
+  },
+  {
+    "pregunta": "¿Qué técnica de clasificación utiliza 'ensembles' de árboles de decisión?",
+    "opciones": [
+      "Regresión Logística",
+      "Random Forest",
+      "SVM",
+      "LDA"
+    ],
+    "respuesta": "Random Forest"
+  },
+  {
+    "pregunta": "En el contexto de la clasificación binaria, ¿qué representa el AUC-ROC?",
+    "opciones": [
+      "Balance entre precisión y recall",
+      "Capacidad del modelo para distinguir entre clases",
+      "Tasa de verdaderos positivos",
+      "Error del modelo"
+    ],
+    "respuesta": "Capacidad del modelo para distinguir entre clases"
+  },
+  {
+    "pregunta": "¿Qué indica la Curva Lift en un modelo de clasificación?",
+    "opciones": [
+      "La capacidad del modelo para distinguir entre clases a diferentes umbrales de decisión",
+      "La relación entre la tasa de verdaderos positivos y la tasa de falsos positivos",
+      "El porcentaje acumulado de casos positivos identificados en función de diferentes fracciones de la población",
+      "La efectividad del modelo en identificar casos positivos en comparación con una selección aleatoria"
+    ],
+    "respuesta": "La efectividad del modelo en identificar casos positivos en comparación con una selección aleatoria"
+  },
+  {
+    "pregunta": "¿Cuál es la desventaja del submuestreo (undersampling) en comparación con el sobremuestreo (oversampling)?",
+    "opciones": [
+      "Aumenta la complejidad computacional del modelo",
+      "Puede eliminar información valiosa de la clase mayoritaria",
+      "Requiere más recursos computacionales",
+      "No afecta significativamente el rendimiento del modelo"
+    ],
+    "respuesta": "Puede eliminar información valiosa de la clase mayoritaria"
+  },
+  {
+    "pregunta": "¿Por qué es importante evaluar el rendimiento de un modelo después de aplicar técnicas de balanceo?",
+    "opciones": [
+      "Para determinar la complejidad del modelo",
+      "Para medir la eficacia de las técnicas de balanceo en la mejora del rendimiento",
+      "Para calcular la velocidad de entrenamiento",
+      "Para asegurarse de que el modelo sea resistente al sobreajuste"
+    ],
+    "respuesta": "Para medir la eficacia de las técnicas de balanceo en la mejora del rendimiento"
+  },
+  {
+    "pregunta": "¿Qué es el balanceo de datos en el contexto de machine learning?",
+    "opciones": [
+      "Un proceso para eliminar datos irrelevantes",
+      "Un enfoque para equilibrar la cantidad de clases en un conjunto de datos",
+      "Un método para aumentar la complejidad de los modelos",
+      "La creación de datos sintéticos para mejorar el rendimiento del modelo"
+    ],
+    "respuesta": "Un enfoque para equilibrar la cantidad de clases en un conjunto de datos"
+  },
+  {
+    "pregunta": "¿Cuál es el problema principal asociado con conjuntos de datos desbalanceados?",
+    "opciones": [
+      "Mayor velocidad de entrenamiento",
+      "Mayor precisión en la evaluación del modelo",
+      "Menor variabilidad en las predicciones",
+      "Sesgo en la predicción hacia la clase mayoritaria"
+    ],
+    "respuesta": "Sesgo en la predicción hacia la clase mayoritaria"
+  },
+  {
+    "pregunta": "¿Cuál es un enfoque común para abordar el desbalanceo en problemas de clasificación multiclase?",
+    "opciones": [
+      "Submuestreo aleatorio",
+      "Validación cruzada",
+      "Sobremuestreo adaptativo",
+      "One-vs-Rest (OvR) strategy"
+    ],
+    "respuesta": "One-vs-Rest (OvR) strategy"
+  },
+  {
+    "pregunta": "¿Qué método combina submuestreo y sobremuestreo para lograr un equilibrio en las clases?",
+    "opciones": [
+      "Stratified sampling",
+      "Validación cruzada",
+      "Ensemble learning",
+      "SMOTE (Synthetic Minority Over-sampling Technique)"
+    ],
+    "respuesta": "SMOTE (Synthetic Minority Over-sampling Technique)"
+  },
+  {
+    "pregunta": "¿Qué métrica de evaluación es particularmente útil al tratar con conjuntos de datos desbalanceados?",
+    "opciones": [
+      "AUC-ROC",
+      "Tiempo de entrenamiento",
+      "Precisión (Precision)",
+      "Exactitud (Accuracy)"
+    ],
+    "respuesta": "AUC-ROC"
+  },
+  {
+    "pregunta": "¿Qué problema específico aborda la técnica de submuestreo aleatorio (Random Undersampling)?",
+    "opciones": [
+      "Aumento de la complejidad computacional",
+      "Overfitting en el modelo",
+      "Sesgo en la predicción hacia la clase minoritaria",
+      "Eliminación de información valiosa de la clase mayoritaria"
+    ],
+    "respuesta": "Eliminación de información valiosa de la clase mayoritaria"
+  },
+  {
+    "pregunta": "¿Cuál es el propósito de la técnica de generación de datos sintéticos en el balanceo de clases?",
+    "opciones": [
+      "Reducir la complejidad del modelo",
+      "Mejorar el rendimiento de las clases minoritarias",
+      "Aumentar la variabilidad en el conjunto de datos",
+      "Aumentar el sesgo hacia la clase mayoritaria"
+    ],
+    "respuesta": "Mejorar el rendimiento de las clases minoritarias"
+  },
+  {
+    "pregunta": "¿Qué técnica de balanceo aumenta artificialmente la cantidad de instancias de la clase minoritaria mediante replicación?",
+    "opciones": [
+      "Sintetización de datos",
+      "Submuestreo",
+      "Validación cruzada",
+      "Sobremuestreo"
+    ],
+    "respuesta": "Sobremuestreo"
+  }
+]
